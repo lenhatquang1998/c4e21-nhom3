@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img src="{{food.link_san_pham}}" alt=""><hr>
+    <strong>Nguyên liệu:</strong>
+    <br>
+    {% for item in food.nguyen_lieu%}
+        {{loop.index}}. 
+        {{item}}
+        <br>
+    {% endfor %}
+    <!-- {% for item in food.cach_lam %}
+        -
+        {{item}}
+
+    {%endfor%} -->
+</body>
+</html>
