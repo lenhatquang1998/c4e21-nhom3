@@ -4,20 +4,28 @@ from models.food import Food
 mlab.connect()
 app = Flask(__name__)
 
-@app.route("/home")
+@app.route("/")
 def home():
     # all_home = home.objects()
     # return render_template("home.html", home=all_home)
     return render_template("home.html")
-@app.route("/new")
-def new():
+@app.route("/capdoi")
+def capdoi():
     foods = Food.objects(chu_de = "couple")
-    return render_template("new.html", foods = foods)
+    return render_template("capdoi.html", foods = foods)
 
 
-@app.route("/new1/<food_id>")
-def new1(food_id):
+@app.route("/cap_doi/<food_id>")
+def cap_doi(food_id):
     food = Food.objects().with_id(food_id)
-    return render_template("new1.html", food = food)
+    return render_template("cap_doi.html", food = food)
+@app.route("/giadinh")
+def giadinh():
+    foods = Food.objects(chu_de = "family")
+    return render_template("giadinh.html", foods = foods)
+@app.route("/gia_dinh/<food_id>")
+def gia_dinh(food_id):
+    food = Food.objects().with_id(food_id)
+    return render_template("gia_dinh.html", food = food)
 if __name__ == "__main__":
     app.run(debug=True)

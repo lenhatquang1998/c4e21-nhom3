@@ -13,42 +13,25 @@ class Food(Document):
 
 
 # new_food = Food(
-#     link_san_pham = "https://znews-photo-td.zadn.vn/w660/Uploaded/Ohunoaa/2017_01_17/g.jpg",
-#     chu_de = "couple",
-#     ten_mon = "gà phô mai hàn quốc không cần lò nướng",
-#     nguyen_lieu = ["1 kg thịt ức gà", "1/2 chén ớt bột (của Việt Nam hay Hàn Quốc đều được)", "1 muỗng canh nước tương (xì dầu)", "3 muỗng canh dầu mè", "3 muỗng canh dầu mè", "1/2 muỗng cà phê hạt tiêu đen", "1/3 chén siro dâu", "1 củ tỏi lớn", "2 muỗng cà phê gừng băm nhuyễn",
-#     "450 gram phô mai mozzarella", "30 ml nước lọc", "1 cây hành bao ro/20 gram hành lá"],
+#     link_san_pham = "http://imgs.vietnamnet.vn/Images/2017/08/31/16/20170831160446-mon-ngon-2-9-1.jpg",
+#     chu_de = "family",
+#     ten_mon = "Vịt om sấu",
+#     nguyen_lieu = ["Nửa con vịt.", "Sấu: 7 - 12 quả (tùy theo vị chua nhiều hay ít).", "Rau muống hoặc rau rút.", "Khoai sọ: 200gr.", "Nước dừa: một quả. (không bắt buộc) Nhiều gia đình cho nước dừa vào để om sấu, sẽ giúp thịt vịt mềm và ngon hơn rất nhiều.", "Gia vị: chanh, muối, đường, gừng, hành củ, hành lá, xả, tỏi.", "Bún tươi ăn kèm."],
 #     link_anh = "",
 #     cach_lam = [
 #         {
-#             "mo_ta": "Rửa sạch thịt ức gà, trụng nhanh thịt qua nước sôi để loại bỏ chất bẩn, để ráo.",
+#             "mo_ta": "Sơ chế vịt bằng cách cho một ít muối vào vịt rồi dùng tay bóp cho sạch lông măng. Sau đó rửa sạch vịt với nước. Dùng một nửa quả chanh xát mạnh vào da vịt cho hết mùi tanh. Cuối cùng, lấy dao hoặc lấy kéo cắt vịt thành từng miếng nhỏ.",
 #             "link": "",
 #         },
 #         {
-#             "mo_ta": "Xắt thịt gà thành miếng vừa ăn.",
+#             "mo_ta": "Ướp vịt với gia vị: đập dập, băm nhỏ hành củ, tỏi, xả, gừng rồi cho vào vịt, cho thêm một thìa cà phê muối, một thìa cà phê đường rồi lấy đũa đảo đều và ướp trong 30 phút cho gia vị ngấm vào vịt.",
 #             "link": "",
 #         },
 #         {
-#             "mo_ta": "Cắt phô mai thành miếng vừa ăn.",
+#             "mo_ta": "Sau khoảng 30 phút khi vịt đã ngấm gia vị, cho vịt vào nồi, cho thêm một chút dầu ăn và xào chín sơ. Sau đó đổ nước vừa đủ. Cho thêm sấu vào nồi vịt và đun nhỏ lửa. Khoảng 30 phút, khi vịt đã chín mềm, bạn đổ khoai sợ vào và đun cho tới khi khoai chín bở rồi nêm gia vị cho vừa miệng.",
 #             "link": "",
 #         },
-#         {
-#             "mo_ta": "Ướp thịt gà với gừng băm nhuyễn, tỏi đập dập, hành lá xắt vụn, ít muối, bột ngọt. Đặt thịt đã ướp vào ngăn mát tủ lạnh ít nhất 30 phút cho ngấm gia vị.",
-#             "link": "",
-#         },
-#         {
-#             "mo_ta": "Lần lượt cho ớt bột, tương ớt, nước tương, dầu mè, hạt tiêu đen, xi-rô dâu, tỏi, gừng vào tô, trộn đều. Cho hỗn hợp gia vị vào thịt gà, để 30 phút cho thịt gà ngấm gia vị. ",
-#             "link": "",
-#         },
-#         {
-#             "mo_ta": "Làm nóng chảo dầu (nên dùng chảo không dính), cho thịt gà vừa ướp vào, xào chín - khoảng 10 phút.Lúc này thịt gà chưa cạn hết nước.",
-#             "link": "",
-#         },
-#         {
-#             "mo_ta": "Khi thịt gà chín, bạn trải đều phô mai lên thịt gà, đậy nắp lại và vặn nhỏ lửa. Khoảng 5-7 phút sau, phô mai sẽ chảy và phủ đều một lớp trên thịt gà. Dùng khi còn nóng. ",
-#             "link": "",
-#         },
-       
+        
 #     ]
 # )
 

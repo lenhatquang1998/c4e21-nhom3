@@ -11,14 +11,17 @@
     <strong>Nguyên liệu:</strong>
     <br>
     {% for item in food.nguyen_lieu%}
-        {{loop.index}}. 
+        - 
         {{item}}
         <br>
     {% endfor %}
-    <!-- {% for item in food.cach_lam %}
-        -
-        {{item}}
-
-    {%endfor%} -->
+    <strong>Các bước thực hiện:</strong>
+    {% for item in food.cach_lam %}
+        <br>
+        {{item["mo_ta"]}}
+        <br>
+        <img src="{{item["link"]}}" alt="">
+        <br>
+    {%endfor%}
 </body>
 </html>
