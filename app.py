@@ -27,5 +27,13 @@ def giadinh():
 def gia_dinh(food_id):
     food = Food.objects().with_id(food_id)
     return render_template("gia_dinh.html", food = food)
+@app.route("/ngayle")
+def ngayle():
+    foods = Food.objects(chu_de = "ngayle")
+    return render_template("ngayle.html", foods = foods)
+@app.route("/ngay_le/<food_id>")
+def ngay_le(food_id):
+    food = Food.objects().with_id(food_id)
+    return render_template("ngay_le.html", food = food)
 if __name__ == "__main__":
     app.run(debug=True)

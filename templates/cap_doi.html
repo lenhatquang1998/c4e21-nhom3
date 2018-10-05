@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    {% include 'meta-data.html' %}
 </head>
-<body>
-    <img src="{{food.link_san_pham}}" alt=""><hr>
-    <strong>Nguyên liệu:</strong>
-    <br>
-    {% for item in food.nguyen_lieu%}
-        - 
-        {{item}}
+<body >
+    {% include 'navbar.html' %}
+    <div class="id_cap_doi">
+        
+        <img  src="{{food.link_san_pham}}" alt=""><br>
+        <strong>Nguyên liệu:</strong>
         <br>
-    {% endfor %}
-    <strong>Các bước thực hiện:</strong>
-    {% for item in food.cach_lam %}
-        <br>
-        {{item["mo_ta"]}}
-        <br>
-        <img src="{{item["link"]}}" alt="">
-        <br>
-    {%endfor%}
+        {% for item in food.nguyen_lieu%}
+            - 
+            {{item}}
+            <br>
+        {% endfor %}
+        <strong>Các bước thực hiện:</strong>
+        {% for item in food.cach_lam %}
+            <br>
+            {{item["mo_ta"]}}
+            <br>
+            <img src="{{item["link"]}}" alt="">
+            <br>
+        {%endfor%}
+    </div>
 </body>
 </html>

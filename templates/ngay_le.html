@@ -8,7 +8,7 @@
         <a class="" style="color:white" href="{{ url_for('home') }}">MENU</a>
     </div> -->
     {% include 'navbar.html' %}
-    <div class="id_gia_dinh">
+    <div class="id_ngay_le">
         <img src="{{food.link_san_pham}}" alt="" style="padding-top:60px"><hr>
         <strong>Nguyên liệu:</strong>
         <br>
@@ -25,6 +25,6 @@
             <img src="{{item["link"]}}" alt="">
             <br>
         {%endfor%}
-    </div>   
+    </div>
 </body>
 </html>

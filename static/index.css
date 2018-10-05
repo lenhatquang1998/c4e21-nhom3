@@ -1,13 +1,23 @@
+body {
+    margin: 0px;
+}
+
+#navbar {
+    position: fixed;
+}
+
 .menu {
     display: flex;
     height: 70px;
-    width: 50px;
     flex-flow: column;
     justify-content: center;
     padding-left: 35px;
+    font-size: 1.3rem;
+    background: rgba(20, 20, 20, 0.788);
+}
+
+.menu > a {
     text-decoration: none;
-    font-size: 1.2rem;
-    
 }
 
 
@@ -15,13 +25,13 @@
     display: flex;
     flex-flow: row;
     margin-bottom: 32px;
-    margin-top: 600px;
+    margin-top: 300px;
     justify-content: space-around;
     
 }
 
 .cap_doi {
-    font-size: 1.2rem;
+    font-size: 2rem;
     display: flex;
     width: 350px;
     height: 350px;
@@ -37,13 +47,27 @@
     background-size: cover;
     width: 350px;
     height: 350px;
+    transition: 0.3s;
+    font-family: Oswald,Tahoma,sans-serif;
+    color: white;
 }
 .cap_doi:active{
     color: black;
 }
+.cap_doi:hover {
+    background-image: url(https://lh3.googleusercontent.com/NjDGNNRipbDk9DiZGM8HNlJaDEeCKEhU-dc864C2kg4b9ijHnFUtB33534a_ABH6aVBwhJNPyT6j8_tZogHRi6axrq2TWg=w725);
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 .gia_dinh {
-    font-size: 1.2rem;
+    font-size: 2rem;
     display: flex;
     width: 350px;
     height: 350px;
@@ -57,16 +81,24 @@
     text-decoration: none;
     background-image: url(http://sqlq1.edu.vn/img/image/%E1%BA%A2NH%20N%C4%82M%202016/Thang%206/1.jpg);
     background-size: cover;
-    
+    transition: 0.3s;
+    font-family: Oswald,Tahoma,sans-serif;
+    color: white;
 }
-
-
+.gia_dinh:hover {
+    background-image: url("http://sqlq1.edu.vn/img/image/%E1%BA%A2NH%20N%C4%82M%202016/Thang%206/1.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
 .gia_dinh:active{
     color: black
 }
 
 .dip_le {
-    font-size: 1.2rem;
+    font-size: 2rem;
     display: flex;
     width: 350px;
     height: 350px;
@@ -78,9 +110,21 @@
     flex-flow: column;
     align-items: center;
     text-decoration: none;
-    background-image: url(http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg);
+    background-image: url("http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg");
     background-size: cover;
+    transition: 0.3s;
+    font-family: Oswald,Tahoma,sans-serif;
+    color: white;
 }
+.dip_le:hover {
+    background-image: url("http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
 .dip_le:active{
     color: black
 }
@@ -90,8 +134,56 @@
 }
 
 .image {
-    height: 450px;
-    background-color: red;
-    background-image: url("https://www.giadinhnestle.com.vn/sites/default/files/articles/sliders/slider-20171115-1510763613261016.jpg");
+    height: 500px;
+    
+    background-image: url("https://afamilycdn.com/2017/1484644624512-0-0-1351-2163-crop-1484644639011.jpg");
     background-size: cover;
+    background-attachment: fixed;
+}
+.cuoi {
+    margin-top: 200px;
+   
+    
+}
+.chu_1 {
+    color:white;
+    display: flex;
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+}
+.chu_2 {
+    color: white;
+    display: flex;
+    font-size: 1.4rem;
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+}
+.gioi_thieu {
+    
+    display: flex;
+    color: white;
+    font-size: 1.4rem;
+}
+.du_an {
+    color: white;
+    font-size: 1.3rem;
+}
+.ten {
+    color: white;
+    font-size: 1rem;
+}
+.id_cap_doi {
+    padding-left: 300px;
+    padding-top: 100px;
+   
+}
+.id_gia_dinh {
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.id_ngay_le {
+    padding-left: 300px;
+    padding-top: 100px;
 }
