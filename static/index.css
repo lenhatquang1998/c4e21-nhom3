@@ -1,0 +1,97 @@
+.menu {
+    display: flex;
+    height: 70px;
+    width: 50px;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 35px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+
+
+.thu_muc {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 32px;
+    margin-top: 600px;
+    justify-content: space-around;
+    
+}
+
+.cap_doi {
+    font-size: 1.2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(https://lh3.googleusercontent.com/NjDGNNRipbDk9DiZGM8HNlJaDEeCKEhU-dc864C2kg4b9ijHnFUtB33534a_ABH6aVBwhJNPyT6j8_tZogHRi6axrq2TWg=w725);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+.cap_doi:active{
+    color: black;
+}
+
+.gia_dinh {
+    font-size: 1.2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(http://sqlq1.edu.vn/img/image/%E1%BA%A2NH%20N%C4%82M%202016/Thang%206/1.jpg);
+    background-size: cover;
+    
+}
+
+
+.gia_dinh:active{
+    color: black
+}
+
+.dip_le {
+    font-size: 1.2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg);
+    background-size: cover;
+}
+.dip_le:active{
+    color: black
+}
+#hinh_nen {
+    background-image: url(http://backgrounddep.com/uploads/images/30-hinh-nen-cac-van-go-dep-nhat-cho-desktop-1487493869-20.jpg);
+    background-size: cover;
+}
+
+.image {
+    height: 450px;
+    background-color: red;
+    background-image: url("https://www.giadinhnestle.com.vn/sites/default/files/articles/sliders/slider-20171115-1510763613261016.jpg");
+    background-size: cover;
+}

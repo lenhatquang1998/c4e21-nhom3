@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Hôm nay ăn gì?</title>
+</head>
+<body id="hinh_nen">
+    <div class="menu">
+        <a href="{{ url_for('home') }}">MENU</a>
+    </div>
+    <div class="image">
+        
+    </div>
+    <div class="thu_muc">
+        <a class="cap_doi " href="{{ url_for('capdoi') }}">Món Ăn Cặp Đôi</a>       
+        <a class="gia_dinh " href="{{ url_for('giadinh') }}">Món Ăn Gia Đình</a>
+        <a class="dip_le " href="{{ url_for('home') }}">Món Ăn Dịp Lễ</a>
+    </div>
+    
+</body>
+</html>
